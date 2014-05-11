@@ -5,7 +5,8 @@ Simple tool for SSH interaction within shell scripts
 
 Example
 ======
-`
+
+```
 #!/bin/sh
 cd ~/gitdir
 git commit -am "commit"
@@ -16,4 +17,4 @@ git pull origin master
 exit
 "
 echo "Remote updated"
-`
+```
