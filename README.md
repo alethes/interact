@@ -1,7 +1,9 @@
 interact
 ========
 
-Simple tool for SSH interaction within shell scripts
+Simple tool for facilitating SSH interaction within shell scripts.
+
+It's written in C++ for Unix-like operating systems.
 
 Example
 ======
@@ -18,3 +20,8 @@ exit
 "
 echo "Remote updated"
 ```
+
+Installation
+============
+
+Make sure you have `expect` installed on your system. Clone the repository and compile `interact.cpp` (eg. with `sudo g++ interact.cpp -o /usr/local/bin/interact`).
