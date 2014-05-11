@@ -1,7 +1,7 @@
 interact
 ========
 
-Simple tool for facilitating SSH interaction within shell scripts.
+Simple tool for facilitating SSH interactions within shell scripts.
 
 It's written in C++ for Unix-like operating systems.
 
@@ -24,4 +24,4 @@ echo "Remote updated"
 Installation
 ============
 
-Make sure you have `expect` installed on your system. Clone the repository and compile `interact.cpp` (eg. with `sudo g++ interact.cpp -o /usr/local/bin/interact`).
+Make sure you have `expect` installed on your system. Otherwise, you should be able to install it using your OS' package management utility (eg. `sudo yum install expect` or `sudo apt-get install expect`). Clone this repository and compile `interact.cpp` (eg. with `sudo g++ interact.cpp -o /usr/local/bin/interact`).
