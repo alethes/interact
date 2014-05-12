@@ -1,7 +1,7 @@
 interact
 ========
 
-Simple tool for facilitating SSH interactions within shell scripts.
+A simple tool for facilitating SSH interactions within shell scripts.
 
 It's written in C++ for Unix-like operating systems.
 
