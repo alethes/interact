@@ -26,4 +26,4 @@ echo "Remote updated"
 Installation
 ============
 
-Make sure you have `expect` installed on your system. Otherwise, you should be able to install it using your OS' package management utility (eg. `sudo yum install expect` or `sudo apt-get install expect`). Clone this repository and compile `interact.cpp` (eg. with `sudo g++ interact.cpp -o /usr/local/bin/interact`).
+Make sure you have `expect` installed on your system. You should be able to do it using your OS' package management utility (eg. `sudo yum install expect` or `sudo apt-get install expect`). Clone this repository and compile `interact.cpp` (eg. with `sudo g++ interact.cpp -o /usr/local/bin/interact`).
