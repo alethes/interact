@@ -8,7 +8,7 @@ It's written in C++ for Unix-like operating systems.
 Example
 ======
 
-The following shell script can be used to commit and push to a git repository from one end and then pull the changes over SSH from another. The `interact` command accepts a script with the first line determining the user and the hostname to establish a connection with, and subsequent lines to be executed on a remote machine.
+The following shell script can be used to commit and push to a git repository from one end and then pull the changes over SSH from another. The `interact` command accepts a script with the first line determining a user and a hostname to establish a connection with, and subsequent lines to be executed on a remote machine.
 
 ```
 #!/bin/sh
